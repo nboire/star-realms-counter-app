@@ -1,0 +1,15 @@
+:host {
+  width: 100%;
+  background-color: white;
+  margin: 1rem;
+  border: 1px solid black;
+}
+
+.counter-point {
+  font-size: 10rem;
+}
+
+.counter-header {
+  font-size: 2rem;
+  border-bottom: 1px solid grey;
+}

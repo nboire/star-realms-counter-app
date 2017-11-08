@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {Player} from './Player';
+import {CounterComponent} from './component/counter.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  playerA: Player = {
+    point: 50,
+    name: 'Player A'
+  };
+  playerB: Player = {
+    point: 50,
+    name: 'Player B'
+  };
+
 }
